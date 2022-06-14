@@ -1,0 +1,6 @@
+.header__lang-links {
+    /*page-proofs*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

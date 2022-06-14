@@ -1,0 +1,10 @@
+.places__place__website__url-heading {
+    /*style*/
+    color: #AAAAAA;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1;
+
+    /*indentation and sizing*/
+    margin: 0 0 12px 0;
+}

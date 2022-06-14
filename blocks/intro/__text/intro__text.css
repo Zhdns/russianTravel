@@ -1,0 +1,17 @@
+.intro__text {
+    /*style*/
+    color: white;
+    font-size: 1em;
+    line-height: 1.6;
+    font-weight: 400;
+
+    /*indention and sizing*/
+    max-width: 690px;
+    margin: 40px 0 33px;
+}
+
+@media screen and (max-width: 750px) {
+    .intro__title {
+        font-size: 2em;
+    }
+}

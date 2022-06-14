@@ -1,0 +1,28 @@
+.lead__subtitle {
+    /*style*/
+    color: var(--textColor); 
+    font-size: 1.8em;
+    line-height: 1.2;
+    font-weight: 400;
+
+    /*pege-proofs*/
+    text-align: center;
+
+    /*indention and sizing*/
+    max-width: 600px;
+    margin: 32px auto 64px;
+}
+
+@media screen and (max-width: 1152px) {
+    .lead__subtitle {
+        margin: 32px auto 64px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .lead__subtitle {
+        margin: 16px auto 40px;
+        font-size: 1em;
+        max-width: 343px;
+    }
+}

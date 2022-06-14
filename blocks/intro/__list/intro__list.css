@@ -1,0 +1,12 @@
+.intro__list {
+    /*style*/
+    list-style: none;
+    color: var(--textColor);
+    line-height: 1.5;
+    font-size: 0.75em;
+    font-weight: 400;
+    
+    /*indention and sizing*/
+    margin: 0;
+    padding: 0;
+}

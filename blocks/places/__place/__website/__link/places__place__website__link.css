@@ -1,0 +1,11 @@
+.places__place__website__link {
+    /*style*/
+    text-decoration: underline;
+    color: white;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    font-weight: 400;
+
+    /*indentation and sizing*/
+    margin: 0;
+}

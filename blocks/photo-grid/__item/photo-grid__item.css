@@ -1,0 +1,10 @@
+.photo-grid__item {
+    /*indentation and sizing*/
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
+    /*page proofs*/
+    object-fit: contain;
+}
+

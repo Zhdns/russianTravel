@@ -1,0 +1,27 @@
+.footer__links__link {
+    /*style*/
+    color: var(--textColor);
+    font-size: 1em;
+    line-height: 1.125;
+    font-weight: 400;
+    text-decoration: none;
+
+    /*indentation and sizing*/
+    margin: 0 18px 0 0;
+}
+
+.footer__links__link:last-child {
+    margin: 0;
+}
+
+@media screen and (max-width: 544px) {
+    .footer__links__link{
+    font-size: 1.5em;
+    line-height: 1;
+    margin: 0 0 32px 0;
+    }
+
+    .footer__links__link:last-child {
+        margin: 0 0 48px 0;
+    }
+}

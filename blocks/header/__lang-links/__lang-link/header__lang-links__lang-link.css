@@ -1,0 +1,24 @@
+.header__lang-link {
+    /*style*/
+    color: var(--textColor);
+    text-decoration: none;
+    font-size: 1.5em;
+    line-height: 1.1;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    /*indention and sizing*/
+    margin: 0 0 0 18px;
+}
+
+
+.header__lang-link:nth-child(1) {
+    margin: 0;
+}
+
+@media screen and (max-width: 750px) {
+    .header__lang-link {
+        font-size: 1.1em;
+    } 
+}
+

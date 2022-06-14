@@ -1,0 +1,13 @@
+.places__place__paragraphs {
+    /*page-proof*/
+    grid-area: paragraphs;
+
+    /*indentation and sizing*/
+    margin: 0;
+}
+
+@media screen and (max-width: 544px) {
+    .places__place__paragraphs {
+        margin: 0 16px;
+    }
+}

@@ -1,0 +1,14 @@
+.places__place__website {
+    /*page-proofs*/
+    grid-area: website;
+    align-self: end;
+
+    /*indentation and sizing*/
+    margin: 0;
+}
+
+@media screen and (max-width: 544px) {
+    .places__place__website {
+        margin: 0 0 0 16px;
+    }
+}

@@ -1,0 +1,10 @@
+.footer__copyright {
+    /*style*/
+    color: var(--textColor);
+    font-size: 0.875em;
+    line-height: 1.1;
+    font-weight: 400;
+
+    /*indentation and sizing*/
+    margin: 0;
+}

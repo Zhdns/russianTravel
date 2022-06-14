@@ -1,0 +1,21 @@
+.lead__title {
+    /*indention and syzing*/
+    margin:0 auto;
+
+    /*style*/
+    color: var(--textColor);
+    font-size: 6em;
+    line-height: 1.04;
+    font-weight: 900;
+    max-width: 720px;
+
+    /*page-proofs*/
+    text-align: center;
+    
+}
+@media screen and (max-width: 544px) {
+    .lead__title {
+        font-size: 2.5em;
+        max-width: 288px;
+    }
+}

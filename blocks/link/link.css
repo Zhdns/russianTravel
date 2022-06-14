@@ -1,0 +1,7 @@
+.link {
+    transition: var(--transitionTime);
+}
+
+.link:hover {
+    opacity: 0.6;
+}

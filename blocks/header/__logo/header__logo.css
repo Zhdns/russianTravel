@@ -1,0 +1,14 @@
+.header__logo {
+    /*page-proofs*/
+    object-fit: contain;
+    
+    /*indention and sizing*/
+    margin: 0;
+    max-height: 52px;
+}
+
+@media screen and (max-width: 544px) {
+    .header__logo {
+        max-height: 42px;
+    }
+}

@@ -1,0 +1,22 @@
+.places {
+    /*page-proofs*/
+    display: flex;
+    flex-direction: column;
+
+    /*indentetion and sizing*/
+    margin: var(--basicMargin);
+}
+
+@media screen and (max-width: 896px) {
+    .places {
+        margin: 0 auto 62px;
+    }
+    
+}
+
+@media screen and (max-width: 544px) {
+    .places {
+        margin: 0 auto 50px;
+    }
+    
+}

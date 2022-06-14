@@ -1,0 +1,23 @@
+.intro { 
+    /*indention and sizing*/
+    margin: var(--basicMargin);
+    max-width: 990px;
+}
+
+@media screen and (max-width: 1152px) {
+    .intro {
+        margin: 0 0 92px 48px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .intro {
+        margin: 0 0 88px 24px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .intro {
+        margin: 0 16px 64px;
+    }
+}

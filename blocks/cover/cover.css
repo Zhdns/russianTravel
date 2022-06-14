@@ -1,0 +1,28 @@
+.cover { 
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 48px;
+    margin: var(--basicMargin);
+}
+
+@media screen and (max-width: 1152px) {
+    .cover {
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 896px) {
+    .cover {
+        padding: 0;
+        margin: var(--margin896px);
+    }
+}
+
+
+@media screen and (max-width: 1152px) {
+    .cover {
+        padding: 0;
+        margin: var(--margin544px);
+    }
+}

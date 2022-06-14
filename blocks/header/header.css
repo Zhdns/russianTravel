@@ -1,0 +1,27 @@
+.header {
+    /*page-proofs*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    /*indention and sizing*/
+    margin: 0 auto 56px;
+    padding-top: 28px;
+    max-width: var(--maxWidth);
+    max-height: 52px;
+    
+}
+
+@media screen and (max-width: 896px) {
+    .header {
+        max-width: var(--maxWidth896px);
+        margin: 0 auto 48px;
+    } 
+}
+
+@media screen and (max-width: 544px) {
+    .header {
+        max-height: var(--maxWidth544px);
+        padding-top: 16px;
+    } 
+}

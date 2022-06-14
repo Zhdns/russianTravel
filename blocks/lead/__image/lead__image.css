@@ -1,0 +1,8 @@
+.lead__image {
+    /*indention and sizing*/
+    margin: 0 auto;
+    max-width: 100%;
+
+    /*page-proofs*/
+    object-fit: contain;
+}
